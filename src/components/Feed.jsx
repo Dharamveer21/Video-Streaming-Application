@@ -25,13 +25,7 @@ const Feed = () => {
         <Sidebar 
            selectedCategory  = {selectedCategory} setSelectedCategory = {setSelectedCategory}
         />
- 
-        <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: '#fff' }}>
-
-          copyright 2022 JSM Media
-
-        </Typography>
-
+        
       </Box>
 
       <Box p={2} sx={{ overflow: 'auto', height: '90vh', flex: 2 }}>
