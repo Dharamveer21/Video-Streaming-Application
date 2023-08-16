@@ -37,7 +37,7 @@ const SearchBar = () => {
                 onChange={(e) => setSearchTerm(e.target.value)}
             />
 
-            <IconButton type="submit" sx={{ p: '10px', color: 'red' }}>
+            <IconButton type="submit" sx={{ p: '10px', color: 'blue' }}>
                 <Search />
             </IconButton>
 
