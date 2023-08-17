@@ -5,9 +5,9 @@ const BASE_URL = 'https://youtube-v3-alternative.p.rapidapi.com';
 const options = {
     url: BASE_URL,
 
-    params: {
-        maxResults: '50',
-    },
+    // params: {
+    //     maxResults: '50',
+    // },
 
     headers: {
         'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
