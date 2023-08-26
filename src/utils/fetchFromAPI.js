@@ -6,6 +6,7 @@ const options = {
     url: BASE_URL,
 
     params: {
+         type: 'video',
          maxResults: '50'
     },
 
